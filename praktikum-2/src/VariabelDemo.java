@@ -11,5 +11,14 @@ public class VariabelDemo {
         System.out.println("Tinggi: " + tinggi);
         System.out.println("Golongan Darah: " + golDarah);
         System.out.println("Aktif: " + mahasiswaAktif);
+
+        System.out.println();
+        int nilaiBulat = 9;
+        double nilaiDouble = nilaiBulat; // widening otomatis
+        System.out.println("Widening: " + nilaiDouble);
+
+        double pecahan = 9.8;
+        int hasilCasting = (int) pecahan; // nawworing eksplisit
+        System.out.println("Nawworing: " + hasilCasting);
     }
 }
