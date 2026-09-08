@@ -1,9 +1,8 @@
 public class BiodataSaya {
     public static void main(String[] args) {
-        // Menampilkan nama mahasiswa
-        System.out.println("Nama: Humaira Azzahra");
-
-        // Menampilkan NIM mahasiswa
+        /* Menampilkan nama dan nim mahasiswa
+           di baris yang sama */
+        System.out.print("Nama: Humaira Azzahra - ");
         System.out.println("NIM: 2025573010013");
 
         // Menampilkan Program Studi mahasiswa
