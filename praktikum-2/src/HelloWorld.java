@@ -1,5 +1,10 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Humaira Azzahra");
+        System.out.println("Halo, Humaira");
+        System.out.println();
+        System.out.print("Nama: ");
+        System.out.print("Budi");
+        System.out.println();
+        System.out.println("Ini baris baru");
     }
 }
