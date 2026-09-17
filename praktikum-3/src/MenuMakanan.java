@@ -14,6 +14,8 @@ public class MenuMakanan {
         System.out.print("Masukkan pilihan (1-4): ");
         int pilihan = input.nextInt();
 
+        /*Proses menentukan menu makan berdasarkan
+        angka menggunakan Switch-Case*/
         switch (pilihan) {
             case 1:
                 System.out.println("Anda memilih Nasi Goreng.");
