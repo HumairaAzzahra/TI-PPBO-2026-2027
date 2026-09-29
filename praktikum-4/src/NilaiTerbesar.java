@@ -14,12 +14,18 @@ public class NilaiTerbesar {
         }
 
         int terbesar = angka[0];
+        int terbesarkedua = angka[0];
+
         for (int i = 1; i < jumlah; i++) {
             if (angka[i] > terbesar) {
+                terbesarkedua = terbesar;
                 terbesar = angka[i];
+            } else if (angka[i] > terbesarkedua && angka[i] != terbesar) {
+                terbesarkedua = angka[i];
             }
         }
         System.out.println();
         System.out.println("Nilai terbesar: " + terbesar );
+        System.out.println("Nilai terbesar kedua: " + terbesarkedua);
     }
 }
