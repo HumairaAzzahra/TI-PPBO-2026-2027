@@ -1,4 +1,4 @@
-public class ProdukTugasClass {
+public class TokoDemo {
     public static void main(String[] args) {
         // membuat array berisi 5 objek produk
         Produk[] daftarProduk = new Produk[5];
@@ -61,7 +61,7 @@ public class ProdukTugasClass {
             }
         }
 
-        produkTermahal.tampilkanData();;
+        produkTermahal.tampilkanData();
 
         System.out.println("==============================");
         System.out.println("     PROGRAM SELESAI");
