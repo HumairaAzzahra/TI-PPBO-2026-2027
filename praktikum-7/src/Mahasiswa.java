@@ -29,13 +29,17 @@ public class Mahasiswa {
         this.ipk = ipk;
     }
 
+    public void setIpk(double ipk) {
+        if (ipk >= 0.0 && ipk <= 4.0) {
+            this.ipk = ipk;
+        } else {
+            System.out.println("IPK tidak valid, harus 0.0 - 4.0");
+        }
+    }
     public void tampilData() {
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
         System.out.println("IPK: " + ipk);
     }
 
-    public boolean isCumlaude() {
-        return ipk >= 3.5;
-    }
 }
