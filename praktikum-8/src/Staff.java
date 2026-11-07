@@ -1,8 +1,20 @@
 public class Staff  extends Pegawai{
-    private double tunjanganKerja;
+    private double tunjanganKinerja;
 
-    public Staff(String nama, String nip, double gajiPokok, double tunjanganKerja) {
+    // constructor Staff
+    public Staff(String nama, String nip, double gajiPokok, double tunjanganKinerja) {
         super(nama, nip, gajiPokok);
-        this.tunjanganKerja = tunjanganKerja;
+        this.tunjanganKinerja = tunjanganKinerja;
+    }
+
+    // getter untuk tunjangan kinerja
+    public double getTunjanganKinerja() {
+        return tunjanganKinerja;
+    }
+
+    // method untuk menampilkan ringkasan Staff
+    public void tampilkanRingkasan() {
+        System.out.println("Staff: " + nama);
+        System.out.println("Tunjangan kinerja: " + tunjanganKinerja);
     }
 }
