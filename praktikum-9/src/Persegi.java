@@ -1,7 +1,8 @@
 public class Persegi extends BangunDatar{
     private double sisi;
 
-    public Persegi(double sisi) {
+    public Persegi(String nama, double sisi) {
+        super(nama);
         this.sisi = sisi;
     }
 
