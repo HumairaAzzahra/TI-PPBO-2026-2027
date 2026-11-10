@@ -1,6 +1,7 @@
 public class PenggajianDemo {
     public static void main(String[] args) {
         Pegawai[] daftarPegawai = {
+                new Direktur("Maira", "D001", 4000000, 2000000, 2500000),
                 new Manager("Budi", "M001", 3000000, 1000000),
                 new Staff("Siti", "S001", 2000000, 500000),
                 new Staff("Andi", "S002", 2000000, 300000),
