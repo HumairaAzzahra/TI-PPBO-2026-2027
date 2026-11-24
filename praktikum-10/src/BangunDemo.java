@@ -3,6 +3,7 @@ public class BangunDemo {
         BangunDatar[] daftar = {
                 new Persegi(5),
                 new PersegiPanjang(6, 4),
+                new Lingkaran(7),
         };
 
         for (BangunDatar b : daftar) {
