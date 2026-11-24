@@ -4,9 +4,11 @@ public class RentalDemo {
                 new Mobil("Avanza"),
                 new Motor("Trail KLX"),
                 new Mobil("Xenia"),
+                new Sepeda("Polygon"),
+                new Jeep("Jeep SUV"),
         };
 
-        int hari = 3;
+        int hari = 5;
         double total = 0;
 
         for (Kendaraan k : daftar) {
